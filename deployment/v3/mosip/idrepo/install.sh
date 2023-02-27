@@ -23,7 +23,7 @@ echo Running salt generator job
 helm -n $NS install idrepo-saltgen  mosip/idrepo-saltgen --version $CHART_VERSION --wait --wait-for-jobs
 
 echo Running credential
-helm -n $NS install credential mosip/credential --version $CHART_VERSION
+helm -n $NS install credential mosip/credential --version $CHART_VERSION --set image.repository=mosipmec/credential-service --set image.tag=mec-prod-1.2.0.1-B1
 
 echo Running credential request service
 helm -n $NS install credentialrequest mosip/credentialrequest --version $CHART_VERSION

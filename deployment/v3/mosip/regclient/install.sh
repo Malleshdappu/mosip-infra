@@ -43,7 +43,7 @@ helm -n $NS install regclient mosip/regclient \
   --set regclient.hostName=$INTERNAL_HOST \
   --set istio.host=$REGCLIENT_HOST \
   --wait \
-  --version $CHART_VERSION
+  --version $CHART_VERSION --set image.repository=mosipmec/registration-client --set image.tag=mec-prod-1.2.0.1-B1 
 
 echo Get your download url from here
 echo https://$REGCLIENT_HOST/

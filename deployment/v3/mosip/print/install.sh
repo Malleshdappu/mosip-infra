@@ -21,4 +21,4 @@ echo Copy configmaps
 ./copy_cm.sh
 
 echo Installing print service
-helm -n $NS install print-service mosip/print-service --wait --version $CHART_VERSION
+helm -n $NS install print-service mosip/print-service --wait --version $CHART_VERSION --set image.repository=mosipmec/print --set image.tag=mec-prod-1.2.0.1-B1

@@ -45,7 +45,7 @@ echo Installing syncdata
 helm -n $NS install syncdata mosip/syncdata --version $CHART_VERSION
 
 echo Installing notifier
-helm -n $NS install notifier mosip/notifier --version $CHART_VERSION
+helm -n $NS install notifier mosip/notifier --version $CHART_VERSION --set image.repository=mosipmec/kernel-notification-service --set image.tag=mec-prod-1.2.0.1-B1
 
 kubectl -n $NS  get deploy -o name |  xargs -n1 -t  kubectl -n $NS rollout status
 

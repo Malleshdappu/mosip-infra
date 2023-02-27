@@ -16,4 +16,4 @@ helm repo update
 IAMHOST_URL=$(kubectl get cm global -o jsonpath={.data.mosip-iam-external-host})
 
 echo Initializing keycloak
-helm -n $NS install keycloak-init mosip/keycloak-init --set frontend=https://$IAMHOST_URL/auth --version $CHART_VERSION
+helm -n $NS install keycloak-init mosip/keycloak-init --set frontend=https://$IAMHOST_URL/auth --version $CHART_VERSION  -f keycloak-init-values.yaml

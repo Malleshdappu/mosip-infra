@@ -41,19 +41,19 @@ echo Installing group2
 helm -n $NS install regproc-group2 mosip/regproc-group2  --version $CHART_VERSION
 
 echo Installing group3
-helm -n $NS install regproc-group3 mosip/regproc-group3  --version $CHART_VERSION
+helm -n $NS install regproc-group3 mosip/regproc-group3  --version $CHART_VERSION --set image.repository=mosipmec/registration-processor-stage-group-3 --set image.tag=mec-prod-1.2.0.1-B2
 
 echo Installing group4
 helm -n $NS install regproc-group4 mosip/regproc-group4 --version $CHART_VERSION
 
 echo Installing group5
-helm -n $NS install regproc-group5 mosip/regproc-group5 --version $CHART_VERSION
+helm -n $NS install regproc-group5 mosip/regproc-group5 --version $CHART_VERSION 
 
 echo Installing group6
 helm -n $NS install regproc-group6 mosip/regproc-group6 --version $CHART_VERSION
 
 echo Installing group7
-helm -n $NS install regproc-group7 mosip/regproc-group7 --version $CHART_VERSION
+helm -n $NS install regproc-group7 mosip/regproc-group7 --version $CHART_VERSION --set image.repository=mosipmec/registration-processor-stage-group-7 --set image.tag=mec-prod-1.2.0.1-B2
 
 echo Installing regproc-trans
 helm -n $NS install regproc-trans mosip/regproc-trans --version $CHART_VERSION
