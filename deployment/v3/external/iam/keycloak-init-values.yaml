@@ -1,0 +1,57 @@
+clientSecrets:
+  - name: mosip_abis_client_secret
+    secret: "E6pkwRVrGqqBUmce"
+  - name: mosip_admin_client_secret
+    secret: "EprH5vbQwlnnb3o8"
+  - name: mosip_admin_services_client_secret
+    secret: "4L5QWMQtmhS0TcNG"
+  - name: mosip_auth_client_secret
+    secret: "SOzQwxdXpB6WPXPC"
+  - name: mosip_crereq_client_secret
+    secret: "sAaHRVtourPD5IL5"
+  - name: mosip_creser_client_secret
+    secret: "butDawlawE78kkhr"
+  - name: mosip_datsha_client_secret
+    secret: "NnpCyMZORjd7L1AE"
+  - name: mosip_ida_client_secret
+    secret: "uHHb4FwHVpR2LUcg"
+  - name: mosip_misp_client_secret
+    secret: "g0Osu8SqWdkoSuWf"
+  - name: mosip_partner_client_secret
+    secret: "5ZmWKlejBcag5Dwj"
+  - name: mosip_partnermanager_client_secret
+    secret: "UnD6XG8NG4LsxA7D"
+  - name: mosip_pms_client_secret
+    secret: "VHer68Qvx7KdgTnl"
+  - name: mosip_policymanager_client_secret
+    secret: "MMDTLOeQ0FmNMUMY"
+  - name: mosip_reg_client_secret
+    secret: "ZA7k5FQMeSm6RQtf"
+  - name: mosip_regproc_client_secret
+    secret: "srhwBOjXUAE9Xf2h"
+  - name: mosip_resident_client_secret
+    secret: "2J2dJWObgcBwzBjg"
+  - name: mosip_prereg_client_secret
+    secret: "xhVArnAEKyP9rHbY"
+  - name: mosip_creser_idpass_client_secret
+    secret: "TF4dIrsEcZRNDxSQ"
+  - name: mosip_syncdata_client_secret
+    secret: "n2dJ8QLpwCFRj4Uz"
+  - name: mosip_deployment_client_secret
+    secret: "EEzjGofq0x0JNnqo"
+  - name: mpartner_default_auth_secret
+    secret: "LN6PHvTFCvgQ9HGa"
+  - name: mosip_idrepo_client_secret
+    secret: "MA1UFoSn67bQcqXS"
+  - name: mpartner_default_print_secret
+    secret: "lNQ4F1YwYSIRP7YX"
+  - name: mosip_hotlist_client_secret
+    secret: "4RT3Fd30Q4pKcb86"
+  - name: mpartner_default_mobile_secret
+    secret: "F5OlMOLGkivxIkXf"
+  - name: mosip_testrig_client_secret
+    secret: "F9HMYDgufl4bUysA"
+  - name: mosip_toolkit_client_secret
+    secret: "BHP1PTjILGIJr8C5"
+  - name: mpartner_default_digitalcard_secret
+    secret: "ZbOudDll5dTTDYGm"
